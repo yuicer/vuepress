@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>phaser 笔记 | yuicer</title>
+    <meta name="description" content="colorful wanted">
+    <link rel="icon" href="https://yuicer.com/images/me.config/me.png">
+    
+    <link rel="preload" href="/assets/css/0.styles.2c8b2e7d.css" as="style"><link rel="preload" href="/assets/js/app.497f8d83.js" as="script"><link rel="preload" href="/assets/js/4.4d92d203.js" as="script"><link rel="preload" href="/assets/js/3.f4b49bfc.js" as="script"><link rel="preload" href="/assets/js/9.db017358.js" as="script"><link rel="prefetch" href="/assets/js/1.13415b33.js"><link rel="prefetch" href="/assets/js/10.f9dda574.js"><link rel="prefetch" href="/assets/js/11.1d7b8777.js"><link rel="prefetch" href="/assets/js/12.0d869f58.js"><link rel="prefetch" href="/assets/js/5.e36c828c.js"><link rel="prefetch" href="/assets/js/6.587314c6.js"><link rel="prefetch" href="/assets/js/7.6717e1ca.js"><link rel="prefetch" href="/assets/js/8.934029b7.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.2c8b2e7d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><a href="/" class="home-link router-link-active"><!----> <span class="site-name">yuicer</span></a> <!----> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">Links</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://twitter.com/yuicer1" target="_blank" rel="noopener noreferrer" class="nav-link external">Twitter</a></li><li class="dropdown-item"><!----> <a href="https://space.bilibili.com/3069623" target="_blank" rel="noopener noreferrer" class="nav-link external">Blibili</a></li></ul></div></div> <a href="https://github.com/yuicer/vuepress-theme-yuicer" target="_blank" rel="noopener noreferrer" class="repo-link">GitHub</a></nav></div></header> <main class="page" data-v-51af9253> <div class="page-title" data-v-51af9253>phaser 笔记</div> <div class="tags" data-v-51af9253><div data-v-51af9253><a href="/category/尺工.html" data-v-51af9253>尺工</a></div> <div class="time" data-v-51af9253><span data-v-51af9253>May 20  2019</span></div></div> <!----> <div class="content default" data-v-51af9253><p>记录一下看 phaser 3 的一些笔记</p> <ol><li>可以链式调用</li> <li>其中有个 scene 的概念</li> <li>对象开启 setInteractive 之后就可以开始监听事件</li></ol> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">var</span> sprite <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>add<span class="token punctuation">.</span><span class="token function">sprite</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">,</span> texture<span class="token punctuation">)</span><span class="token punctuation">;</span>
+sprite<span class="token punctuation">.</span><span class="token function">setInteractive</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+sprite<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> handle<span class="token punctuation">,</span> context<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div></div> <div class="page-nav" data-v-51af9253><p class="inner" data-v-51af9253><span class="prev" data-v-51af9253><a href="/page/%E5%96%B5.html" class="prev" data-v-51af9253><span data-v-51af9253>←</span>
+          喵
+        </a></span> <span class="next" data-v-51af9253><a href="/page/%E4%B9%9D%E5%B7%9E.html" class="next" data-v-51af9253>
+          梦醒花犹存 铁甲今何在
+          <span data-v-51af9253>→</span></a></span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.497f8d83.js" defer></script><script src="/assets/js/4.4d92d203.js" defer></script><script src="/assets/js/3.f4b49bfc.js" defer></script><script src="/assets/js/9.db017358.js" defer></script>
+  </body>
+</html>
